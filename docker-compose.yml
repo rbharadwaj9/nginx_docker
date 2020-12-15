@@ -1,0 +1,12 @@
+version: "3"
+services:
+  reverseproxy:
+    image: reverseproxy
+    ports:
+      - "8000:8000"
+
+  website_1:
+    image: site_1
+
+  website_2:
+    image: site_2
